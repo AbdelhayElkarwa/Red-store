@@ -1,0 +1,423 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: rgb(131, 130, 130);
+}
+body{
+    font-family: 'Recursive', sans-serif;
+}
+
+.container{
+    margin: auto;
+}
+
+.float-l{
+    float: left;
+}
+
+.float-r{
+    float: right;
+}
+.center{
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+p{
+    line-height: 1.7;
+    color: rgb(141, 141, 141);
+
+}
+
+/*start of navbar*/
+.navbar{
+    background: radial-gradient(#fff,#ffd6d6);
+    height: auto;
+}
+
+.navbar .logo img{
+    width: 150px;
+    margin-top: 30px;
+}
+
+.navbar .menu ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar .menu li{
+    display: inline-block;
+    margin-top:35px;
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-size: 25px;
+
+}
+.navbar .menu li a {
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+}
+
+
+
+.show{
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.navbar .info {
+    margin-top: 100px;
+    width: 40%;
+    margin-right: 10%;
+}
+.navbar .info h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.navbar .info button {
+    color: white;
+    background-color: tomato;
+    width: 160px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    outline: none;
+    margin-top: 20px;
+    font-size:14px ;
+}
+.navbar .info button:hover{
+    background-color:rgb(145, 77, 77) ;
+    color:white;
+    cursor: pointer;
+}
+.navbar .pic{
+    width: 50%;
+}
+
+.mar{
+    margin-bottom: 70px;
+}
+
+
+
+
+/*end of navbar*/
+
+/*start of categories*/
+
+.categories{
+    
+
+    margin-top: 70px;
+   /* margin-bottom: 70px;*/
+    overflow: hidden;
+
+}
+
+.categories .category{
+    width: 30%;
+    max-height: 350px;
+    overflow: hidden;
+    margin-right: 3%;
+}
+
+.categories .category img{
+    width: 100%;
+}
+
+
+
+/*end of categories*/
+
+/*start of products*/
+
+.products h2{
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.products hr{
+    
+    width: 80px;
+    margin: auto;
+    border: 2px solid rgb(228, 115, 95);
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.products .product{
+    width: 23%;
+    overflow: hidden;
+    margin-right: 2%;
+    transition: transform 0.3s;
+}
+.products .product img{
+    width: 100%;
+    
+
+}
+.products .product:hover{
+    transform: translateY(-5px);
+}
+
+.products .product h4{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.products .product .no{
+    color: tomato;
+}
+.products .product p{
+    margin-top: 7px;
+}
+
+
+/*end of products*/
+
+
+
+/*start of offers*/
+
+.offers{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 100px;
+    overflow: hidden;
+    
+}
+
+.offers .offer{
+    width: 50%;
+}
+
+.offers .offer img{
+    padding: 70px;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.offers .detail{
+    margin-top: 150px;
+    width: 40%;
+}
+.offers .detail h2{
+    color: black;
+    margin: 25px 0px;
+    font-size: 40px;
+}
+.detail button{
+    color: white;
+    background-color: tomato;
+    width: 160px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    outline: none;
+    margin-top: 20px;
+    font-size:14px ;
+}
+.detail button:hover{
+    background-color:rgb(145, 77, 77) ;
+    color:white;
+    cursor: pointer;
+
+}
+
+
+
+
+/*end of offers*/
+
+/*start of testimonial*/
+.testimonial{
+    margin-top: 40px;
+}
+.testimonial .opinion{
+    
+    width: 32%;
+    margin-right: 1%;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.testimonial .opinion:hover{
+    transform: translateY(-5px);
+}
+
+.testimonial .opinion .fa-quote-left{
+    
+    
+    color:tomato;
+    
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+
+.testimonial .opinion p{
+    font-size: 16px;
+}
+
+.testimonial .opinion .no {
+    color: tomato;
+    margin: 10px 0;
+}
+.testimonial .opinion img{
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.testimonial .opinion h3 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/*end of testimonial*/
+
+
+/*start of logo*/
+.logos{
+    margin-top: 100px ;
+    margin-bottom: 100px;
+}
+
+.logos .logo
+{
+    width: 20%;
+    filter: grayscale(100%);
+    margin-bottom: 100px;
+}
+
+.logos .logo:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.logos .logo img{
+    min-width: 160px;
+    margin: 5px;
+}
+
+
+/*end of logo*/
+
+/*start of footer*/
+
+.footer{
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+.footer .app{
+    width: 30%;
+    margin-top: 40px;
+}
+.footer .app h2 {
+   color: white;
+   font-size: 25px;
+   margin-bottom: 20px;
+
+}
+.footer .app p{
+    margin-bottom: 14px;
+    font-size: 17px;
+}
+ .footer .app img{
+     width: 43%;
+     margin-right: 1%;
+ }
+
+ .footer .about {
+     width: 34%;
+     margin-top: 40px;
+     text-align: center;
+     margin-left: 2%;
+ }
+ .footer .about img{
+     width: 50%;
+     margin-bottom: 20px;
+ }
+
+ .about p{
+     font-size: 10;
+     text-align: left;
+     text-transform: capitalize;
+     line-height: 1.8;
+ }
+
+
+ .footer .links{
+     margin-top: 40px;
+     width: 15%;
+     margin-left: 1%;
+     text-align: center;
+ }
+
+.footer .links h2{
+ color: white;
+   font-size: 25px;
+margin-bottom: 20px;}
+
+
+.footer .links ul{
+    list-style-type: none;
+    text-align: center;
+}
+.footer .links ul li{
+    line-height: 1.4;
+}
+.footer hr{
+    display: block;
+    margin-top: 60px;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.copy-right{
+    background-color: black;
+    text-align: center;
+}
+.copy-right p{
+    padding: 20px;
+}
+
+/*end of footer*/
+
+
+
+
+
+/*media*/
+
+
+
+@media(min-width:768px){
+    .container{
+        width: 780px;
+    }
+}
+
+@media(min-width:992px){
+    .container{
+        width: 1000px;
+    }
+    .visibe-ms{
+        display: block !important;
+    }
+
+}
+@media(min-width:1200px){
+    .container{
+        width: 1200px;
+    }
+
+}
